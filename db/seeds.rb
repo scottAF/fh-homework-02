@@ -10,6 +10,6 @@ require 'faker'
 Faker::Book.title
 Faker::Book.author
 Faker::Book.genre
-Faker::Book.unique.classification
-Faker::Book.unique.type
-Faker::Book.unique.year
+# Faker::Book.unique.classification :string
+# Faker::Book.unique.type :string 
+# Faker::Book.unique.year :integer
