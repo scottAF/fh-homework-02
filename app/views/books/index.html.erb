@@ -1,0 +1,9 @@
+<br />
+<div class="col-10 offset-1">
+    <h1>List of all Books</h1>
+    <% @books.each do |book| %>
+       <h2><%= book.title %>
+        -
+        <%= book.author %></h2>
+    <% end %>
+</div>
